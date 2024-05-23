@@ -1,0 +1,24 @@
+/* .\components\menu\menu.css */
+.app-menu {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.app-menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.app-menu-item {
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.app-menu-item:hover {
+    background-color: #555;
+}

@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Notebook",
+      "imagen": "../assets/imgs/1.png",
+      "descripcion": "Calidad garantizada",
+      "precio": 4000
+    },
+    {
+      "id": 2,
+      "nombre": "Gabinete",
+      "imagen": "../assets/imgs/2.png",
+      "descripcion": "Calidad garantizada",
+      "precio": 500
+    },
+    {
+      "id": 3,
+      "nombre": "Tarjeta RTX",
+      "imagen": "../assets/imgs/3.png",
+      "descripcion": "Calidad garantizada",
+      "precio": 7500
+    },
+    {
+      "id": 4,
+      "nombre": "Placa Madre",
+      "imagen": "../assets/imgs/4.png",
+      "descripcion": "Calidad garantizada",
+      "precio": 1500
+    },
+    {
+      "id": 5,
+      "nombre": "Procesador",
+      "imagen": "../assets/imgs/5.png",
+      "descripcion": "Calidad garantizada",
+      "precio": 3500
+    },
+    {
+      "id": 6,
+      "nombre": "Fuente de poder",
+      "imagen": "../assets/imgs/6.png",
+      "descripcion": "Calidad garantizada",
+      "precio": 900
+    }
+  ]
+}

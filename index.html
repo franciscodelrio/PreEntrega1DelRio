@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tercera Entrega - Proyecto JS - Francisco Del Rio</title>
+    <link rel="icon" type="image/png" href="./assets/imgs/icono.png" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Agregamos Toastify CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="menu container">
+        <a href="#" class="logo">fco del rio</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="./assets/imgs/menu.png" class="menu-icono" alt="menu" />
+        </label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <ul>
+            <li class="submenu">
+              <img src="./assets/imgs/car.svg" id="img-carrito" alt="carrito" />
+              <div id="carrito">
+                <table id="lista-carrito">
+                  <thead>
+                    <tr>
+                      <th>Imagen</th>
+                      <th>Nombre</th>
+                      <th>Precio</th>
+                      <th>Cantidad</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+                <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-content container">
+        <div class="header-img">
+          <img src="./assets/imgs/right.png" alt="" />
+        </div>
+
+        <div class="header-txt">
+          <h1>Ofertas especiales</h1>
+          <p>lo mejor en gaming</p>
+          <a href="#" class="btn-1">INFORMACIÓN</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="products container" id="lista-1">
+      <h2>Productos</h2>
+
+      <div class="product-content">
+        <div class="product">
+          <img src="./assets/imgs/1.png" alt="" />
+          <div class="product-txt">
+            <h3>Notebook</h3>
+            <p>calidad garantizada</p>
+            <p class="precio">$4.000</p>
+            <a href="#" class="agregar-carrito btn-2" data-id="1"
+              >Agregar al carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="./assets/imgs/2.png" alt="" />
+          <div class="product-txt">
+            <h3>Gabinete</h3>
+            <p>calidad garantizada</p>
+            <p class="precio">$500</p>
+            <a href="#" class="agregar-carrito btn-2" data-id="2"
+              >Agregar al carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="./assets/imgs/3.png" alt="" />
+          <div class="product-txt">
+            <h3>Tarjeta RTX</h3>
+            <p>calidad garantizada</p>
+            <p class="precio">$7.500</p>
+            <a href="#" class="agregar-carrito btn-2" data-id="3"
+              >Agregar al carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="./assets/imgs/4.png" alt="" />
+          <div class="product-txt">
+            <h3>Placa Madre</h3>
+            <p>calidad garantizada</p>
+            <p class="precio">$1.500</p>
+            <a href="#" class="agregar-carrito btn-2" data-id="4"
+              >Agregar al carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="./assets/imgs/5.png" alt="" />
+          <div class="product-txt">
+            <h3>Procesador</h3>
+            <p>calidad garantizada</p>
+            <p class="precio">$3.500</p>
+            <a href="#" class="agregar-carrito btn-2" data-id="5"
+              >Agregar al carrito</a
+            >
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="./assets/imgs/6.png" alt="" />
+          <div class="product-txt">
+            <h3>Fuente de poder</h3>
+            <p>calidad garantizada</p>
+            <p class="precio">$900</p>
+            <a href="#" class="agregar-carrito btn-2" data-id="6"
+              >Agregar al carrito</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div id="mensaje-producto-agregado" class="mensaje">
+        Producto agregado al carrito
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content container">
+        <div class="link">
+          <h3>Página creada por Francisco Del Rio</h3>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="./assets/js/script.json"
+      id="json-data"
+      type="application/json"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  </body>
+</html>
